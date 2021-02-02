@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <script src="scriptProjet.js"></script>
+    <title>Rendez-vous chez le Docteur GUI</title>
+  </head>
+
+  <body>
+    <header>
+      <h1 class="Titre">Rendez vous chez le docteur en GUI</h1>
+    </header>
+
+    <main class="graphique">
+      <div class="appel">
+        <label for="Rendez-vous">A quelle heure est ton rendez-vous ?</label>
+        <input
+          type="number"
+          class="Rendez-vous1"
+          name="Heure1 Rendez-vous"
+          min="0"
+          max="23"
+          minlength="10"
+          maxlength="30"
+          size="20"
+        />
+      </div>
+
+      <div class="date">
+        <label for="Date du Rendez-vous">Quel mois est ton rendez-vous ?</label>
+        <input
+          type="number"
+          class="Rendez-vous2"
+          name="M Rendez-vous"
+          min="0"
+          max="12"
+          minlength="10"
+          maxlength="30"
+          size="20"
+        />
+      </div>
+
+      <div class="jour">
+        <label for="Jour du Rendez-vous"
+          >Quel jour est votre rendez-vous ?</label
+        >
+        <input
+          type="number"
+          class="Rendez-vous3"
+          name=" J Rendez-vous"
+          min="0"
+          max="31"
+          minlength="10"
+          maxlength="30"
+          size="20"
+        />
+      </div>
+
+      <div class="arrive">
+        <label for="Rendez-vous"
+          >A quelle heure tu arrive à ton rendez-vous ?</label
+        >
+        <input
+          type="number"
+          class="Rendez-vous4"
+          name="Heure2 Rendez-vous"
+          min="0"
+          max="23"
+        />
+      </div>
+
+      <div class="calcul">
+        <input
+          class="start"
+          type="submit"
+          value="Calcul de l'heure du rendez-vous"
+        />
+      </div>
+
+      <input  class="rdv" type="text" id="Sortie">
+    </main>
+  </body>
+</html>

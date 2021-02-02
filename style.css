@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+
+@font-face{
+    font-family: "Underwood Champion Normal";
+    src: url(uwch.ttf);
+}
+body{
+    background-image: url(airam-dato-on-ms0Wbq3vBu0-unsplash.jpg);
+}
+.image{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.Titre{
+    text-align: center;
+    font-size: 45px;
+    font-family: Underwood Champion Normal;
+    border: solid;
+    border-radius: 20px;
+    color: #FFF;
+    margin: 0 300px;
+}
+
+.graphique{
+    padding: 0;
+    margin: 0;
+}
+
+.appel, textarea, select{
+    float: left;
+    color: white;
+    font-family: Underwood Champion Normal;
+    margin-top: -350px;
+    border: solid 2px;
+    border-radius: 5px;
+
+}
+
+.date, textarea, select{
+    float: right;
+    color: white;
+    font-family: Underwood Champion Normal;
+    border: solid 2px;
+    margin-top: -260px;
+    border-radius: 5px;
+
+}
+
+.jour, textarea, select{
+    float: left;
+    color: white;
+    font-family: Underwood Champion Normal;
+    margin-top: -170px;
+    /*margin-left: -410px;*/
+    border: solid 2px;
+    border-radius: 5px;
+
+}
+
+.arrive, textarea, select{
+    float: right;
+    color: white;
+    font-family: Underwood Champion Normal;
+    margin-top: -80px;
+    margin-right: 0px;
+    border: solid 2px;
+    border-radius: 5px;
+}
+
+.calcul, textarea, select{
+    text-align: center;
+    font-family: Underwood Champion Normal;
+}
+
+.calcul{
+    margin-top: 400px;
+    margin-left: 50%;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    transform: translate(-50%);
+}
+
+.rdv, textarea, select{
+    font-size: 100%;
+    margin: 1px 0px;
+    width: 510px;
+    font-family: Underwood Champion Normal;
+}
+
+.rdv{
+    margin-top: 1%;
+    margin-left: 50%;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    transform: translateX(-50%);
+}
