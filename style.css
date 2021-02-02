@@ -6,10 +6,10 @@
 
 @font-face{
     font-family: "Underwood Champion Normal";
-    src: url(uwch.ttf);
+    src: url(/uwch.ttf);
 }
 body{
-    background-image: url(airam-dato-on-ms0Wbq3vBu0-unsplash.jpg);
+    background-image: url(/airam-dato-on-ms0Wbq3vBu0-unsplash.jpg);
 }
 .image{
     
